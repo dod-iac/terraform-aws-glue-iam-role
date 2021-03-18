@@ -1,3 +1,4 @@
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Usage
 
 Creates an IAM Role for use as a Glue service role that can read from any bucket and use any KMS key.
@@ -47,14 +48,14 @@ This project constitutes a work of the United States Government and is not subje
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.12 |
-| aws | >= 2.55.0 |
+| terraform | >= 0.13 |
+| aws | ~> 3.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | >= 2.55.0 |
+| aws | ~> 3.0 |
 
 ## Modules
 
@@ -89,3 +90,4 @@ No Modules.
 |------|-------------|
 | arn | The Amazon Resource Name (ARN) of the AWS IAM Role. |
 | name | The name of the AWS IAM Role. |
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
